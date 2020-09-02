@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+  font-size: 150%;
+}
+
+#help {
+  border: solid 25px white;
+  /* display: inline; */
+}
+
+
+p {
+  font-family: "arial";
+  text-indent: 15 px;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: navy;
+}
