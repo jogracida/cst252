@@ -1,0 +1,39 @@
+#test{
+  width: 25%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+h1 {
+  border: solid 10px white;
+  color: coral;
+}
+p {
+  text-align: center;
+  color: white;
+}
+h2 {
+
+  color: white;
+}
+a {
+  color: lightgreen;
+  text-shadow: 0.25px 0.25px white;
+}
+
+body {
+  background-color: navy;
+}
+
+h3 {
+  color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+  align-content: center;
+}
