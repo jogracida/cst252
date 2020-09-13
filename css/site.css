@@ -37,3 +37,8 @@ img {
   height: 25%;
   align-content: center;
 }
+
+code {
+  color: white;
+  text-align: center;
+}
