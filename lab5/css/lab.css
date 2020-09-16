@@ -1,0 +1,51 @@
+#test{
+  width: 25%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+h1 {
+  border: solid 5px white;
+  color: coral;
+}
+p {
+  text-align: justify;
+  color: white;
+}
+h2 {
+  color: white;
+}
+a {
+  color: lightgreen;
+  text-shadow: 0.25px 0.25px white;
+}
+
+body {
+  background-color: navy;
+}
+
+h3 {
+  color: white;
+}
+img {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 75%;
+  float: middle;
+}
+
+ code {
+  color: white;
+  text-align: center;
+}
+
+#text {
+  color: white;
+}
+
+div {
+  color: white;
+}
