@@ -1,19 +1,13 @@
-#test{
-  width: 25%;
-  height: 25%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-    }
 h1 {
   border: solid 5px white;
   color: coral;
 }
 p {
-  text-align: justify;
+  text-align: center;
   color: white;
 }
 h2 {
+
   color: white;
 }
 a {
@@ -29,24 +23,29 @@ h3 {
   color: white;
 }
 img {
-
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: 75%;
-  float: middle;
+  width: 25%;
+  height: 25%;
+
 }
 
- code {
+code {
   color: white;
   text-align: center;
 }
 
-#text {
+script {
   color: white;
-
 }
 
-div {
+.text {
   color: white;
+}
+#local {
+  float: left;
+}
+#javascript {
+  float: right;
 }
