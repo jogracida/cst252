@@ -39,17 +39,6 @@ code {
 script {
   color: white;
 }
-
-.text {
+#output {
   color: white;
-}
-#local {
-  float: left;
-}
-#javascript {
-  float: right;
-}
-
-.text {
-  color: white
 }
