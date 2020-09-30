@@ -7,11 +7,11 @@
     }
 h1 {
   border: solid 5px white;
-  color: coral;
+  color: white;
 }
 p {
   text-align: center;
-  color: white;
+  color: lightgreen;
 }
 h2 {
 
@@ -23,7 +23,7 @@ a {
 }
 
 body {
-  background-color: navy;
+  background-color: coral;
 }
 
 h3 {

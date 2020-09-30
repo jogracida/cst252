@@ -1,10 +1,10 @@
 h1 {
-  border: solid 5px white;
+  border-style: ridge 5px white;
   color: coral;
 }
 p {
   text-align: center;
-  color: white;
+  color: lightgreen;
 }
 h2 {
 
@@ -16,7 +16,7 @@ a {
 }
 
 body {
-  background-color: navy;
+  background-color: coral;
 }
 
 h3 {
@@ -40,5 +40,6 @@ script {
   color: white;
 }
 #output {
-  color: white;
+  color: green;
+  border-style: dotted;
 }
