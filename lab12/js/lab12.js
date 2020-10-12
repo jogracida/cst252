@@ -4,7 +4,8 @@
 * License: Public Domain
 **/
 
-
+//Make fizzbuzz function
+// function fizzBoomBam() {
 
 //Make fizzbuzz function
 // function fizzBoomBam()
@@ -33,12 +34,17 @@
       console.log("Number: " + input);
     }
 }
-// addNew
+// addNewParagraphToOutput(outputString);
+//     return;
+// }
+
+var button = document.getElementById("my-button");
+button.addEventListener("click", function() {
+  var userInput = document.getElementById("num-input").value;
+  console.log(userInput);
+})
 
 
-// given a number and an object that looks like this:
-//
-//
-//function fizzBuzzBoom (maxNums){
-
-//}
+// var button = document.getElementById("testing");
+// button.addEventListener("click", function() {
+//   alert("This is a test");
