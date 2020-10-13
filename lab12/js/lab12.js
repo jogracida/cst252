@@ -10,12 +10,12 @@
 //Make fizzbuzz function
 // function fizzBoomBam()
 
-  for (var input=0; input<1000; input++) {
+  for (var input=0; input<200; input++) {
 
     //make tag for outputs
-    var outputEl = document.getElementById("script-output");
-     var newEl = document.createElement("p");
-     outputEl.appendChild(newEl);
+     outputEl = document.getElementById("output");
+      newEl = document.createElement("p");
+       outputEl.appendChild(newEl);
      console.log(input);
      var outputString = '';
      if (input%7 == 0) {
@@ -38,9 +38,9 @@
 //     return;
 // }
 
-var button = document.getElementById("my-button");
-button.addEventListener("click", function() {
-  var userInput = document.getElementById("num-input").value;
+  button = document.getElementById("myButton");
+  button.addEventListener("click", function() {
+  var userInput = document.getElementById("max").value;
   console.log(userInput);
 })
 
