@@ -1,7 +1,7 @@
 math = "http://numbersapi.com/5/math"
 
-$("#activate").click(function(results) {
-  console.log("click");
+$('#activate').click(function(results) {
+  console.log('click');
 
   $.ajax({
     url: math,
@@ -14,7 +14,7 @@ $("#activate").click(function(results) {
   .done(function( results ) {
       // alert("Success!");
       var data = results.data;
-      $("#output").append("<p>" + data);
+      $("#output").append("<p>" + JSON);
   })
   // If the request fails
   .fail(function( xhr, status, errorThrown ) {
